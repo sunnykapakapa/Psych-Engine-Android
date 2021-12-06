@@ -23,15 +23,12 @@ class CreditsState extends MusicBeatState
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private var iconArray:Array<AttachedSprite> = [];
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
-        [''],
-	['ovo traduzi o resto nao kek'],
 	['Psych Engine'],
 	['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 	['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
 	[''],
 	['Kade Engine'],
 	['KadeDev',		'polybiusproxy',		'Serio que ele criou a \nKade Engine?',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
-	[''],
 	['Engine Contributors'],
 	['shubs',				'shubs',			'New Input System Programmer',						'https://twitter.com/yoshubs',			'0xFF4494E6'],
 	['gedehari',			'gedehari',			'Chart Editor\'s Sound Waveform base',				'https://twitter.com/gedehari',			'0xFFFF9300'],
