@@ -88,7 +88,7 @@ class AchievementsMenuState extends MusicBeatState
 		}
 
 		if (controls.BACK) {
-			FlxG.sound.play(Paths.sound('cancelMenu'));
+			FlxG.sound.play(Paths.sound('conquista));
 			MusicBeatState.switchState(new MainMenuState());
 		}
 	}
